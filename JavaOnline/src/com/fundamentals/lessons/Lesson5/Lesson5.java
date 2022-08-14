@@ -19,11 +19,11 @@ public class Lesson5 {
     short myShort = 235;
 
     /* This primitive type has a value range of
-     -2, 147, 483, 648 to 2, 147, 483, 647*/
+     -2,147,483,648 to 2,147,483,647*/
     int myInt = 2354;
 
     /* This primitive type has a value range of
-    * -9,223,372,036,854,775,808 to 9, 223,372,036,854,775,807 */
+    * -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 */
     long myLong = 56864L;
 
     // This primitive type has a value range of 3.4E-038 to 3.4E+038
@@ -56,7 +56,7 @@ public class Lesson5 {
     }
 
     // This method has two parameters separated by a comma
-    public void showLocalWithParameter(int able, int vals){
+   public void showLocalWithParameter(int able, int vals){
         int total =able +vals;
         System.out.println(total);
     }
