@@ -1,3 +1,4 @@
+import com.fundamentals.exercise.Lesson6Exercise;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
 import jdk.internal.org.objectweb.asm.tree.analysis.Value;
@@ -18,11 +19,21 @@ public class Main {
         //House myHouse = new House();
         //lesson5Examples();
        // setMyInt();
-        lesson6Examples();
+       // lesson6Examples();
+        Lesson6Exercise();
 
 
 
     } //end main method
+
+    private static void Lesson6Exercise() {
+        Lesson6Exercise myLesson6 = new Lesson6Exercise();
+        myLesson6.exerciseChar();
+        String myStr1 = myLesson6.exerciseLowerCase();
+        System.out.println(myStr1);
+        System.out.println(myLesson6.exerciseUpperCase());
+        myLesson6.exerciseEscape();
+    }//end of method exercise
 
 
     public static void lesson6Examples() {

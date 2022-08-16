@@ -35,11 +35,11 @@ public class Lesson5Exercise {
 
         public void showConversion() {
             // this is widening conversion
-            myInt =(int)myByte;
+            myInt = myByte;
             System.out.println(myInt);
-            myLong=(long)myShort;
+            myLong= myShort;
             System.out.println(myLong);
-            myFloat=(float) myInt;
+            myFloat= myInt;
             System.out.println(myFloat);
             // this is narrowing conversion
             myLong=(long)myDouble;
