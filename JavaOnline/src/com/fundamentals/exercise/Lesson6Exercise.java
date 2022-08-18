@@ -19,7 +19,6 @@ public class Lesson6Exercise {
     public String exerciseUpperCase() {
         return myString.toUpperCase();
     }//end exercise upper class
-
     public void exerciseEscape() {
         System.out.println("Jack and Jill \nWent up the hill \n To fetch a pail of water. \n Jack fell down and broke his crown \n And Jill came tambling after.");
     }//end of method escape

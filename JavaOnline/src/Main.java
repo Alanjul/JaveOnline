@@ -1,7 +1,7 @@
 import com.fundamentals.exercise.Lesson6Exercise;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
-import jdk.internal.org.objectweb.asm.tree.analysis.Value;
+import com.fundamentals.lessons.Lesson5.Lesson7;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,12 +20,23 @@ public class Main {
         //lesson5Examples();
        // setMyInt();
        // lesson6Examples();
-        Lesson6Exercise();
+       // Lesson6Exercise();
+        lesson7Examples();
 
 
 
     } //end main method
 
+    public static void lesson7Examples() {
+        Lesson7 myLesson7 = new Lesson7();
+        myLesson7.basicMath();
+        myLesson7.exampleModulus();
+        //myLesson7.addTwoNumbers();
+        myLesson7.exampleAssignment1();
+        myLesson7.exampleAssignment2();
+        myLesson7.exampleIncrement();
+        myLesson7.exampleDecrement();
+    }
     private static void Lesson6Exercise() {
         Lesson6Exercise myLesson6 = new Lesson6Exercise();
         myLesson6.exerciseChar();
