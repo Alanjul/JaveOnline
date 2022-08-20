@@ -1,4 +1,5 @@
 import com.fundamentals.exercise.Lesson6Exercise;
+import com.fundamentals.exercise.Lesson7Exercise;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
 import com.fundamentals.lessons.Lesson5.Lesson7;
@@ -21,17 +22,24 @@ public class Main {
        // setMyInt();
        // lesson6Examples();
        // Lesson6Exercise();
-        lesson7Examples();
+        //lesson7Examples();
+        lesson7Exercise();
 
 
 
     } //end main method
+    public static void lesson7Exercise() {
+        Lesson7Exercise myLesson7 = new Lesson7Exercise();
+        myLesson7.mathProblem();
+        myLesson7.exerciseModulus();
+        myLesson7.exerciseAssignmentOperators();
+    }
 
     public static void lesson7Examples() {
         Lesson7 myLesson7 = new Lesson7();
         myLesson7.basicMath();
         myLesson7.exampleModulus();
-        //myLesson7.addTwoNumbers();
+        myLesson7.addTwoNumbers();
         myLesson7.exampleAssignment1();
         myLesson7.exampleAssignment2();
         myLesson7.exampleIncrement();
