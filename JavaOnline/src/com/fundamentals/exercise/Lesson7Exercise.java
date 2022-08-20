@@ -22,10 +22,10 @@ public class Lesson7Exercise {
         System.out.println(" the modulus of two numbers =" +c);
     } // end method exercise modulus.
     public void exerciseAssignmentOperators() {
-        double  number1 = 36.43;
-        double myOtherNumber =29.23;
+        double  number1 = 43.67;
+        double myOtherNumber =45.5;
         number1 += myOtherNumber;
-        System.out.println(number1);
+        System.out.println(myOtherNumber);
         number1 *= myOtherNumber;
         System.out.println(number1);
         myOtherNumber %= number1;
