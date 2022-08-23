@@ -1,8 +1,9 @@
-import com.fundamentals.exercise.Lesson6Exercise;
-import com.fundamentals.exercise.Lesson7Exercise;
-import com.fundamentals.lessons.Lesson5.Lesson5;
-import com.fundamentals.lessons.Lesson5.Lesson6;
-import com.fundamentals.lessons.Lesson5.Lesson7;
+package com.fundamentals;
+
+import com.fundamentals.exercise.*;
+import com.fundamentals.lessons.Lesson5.*;
+import com.fundamentals.lessons.Lesson8;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -23,11 +24,22 @@ public class Main {
        // lesson6Examples();
        // Lesson6Exercise();
         //lesson7Examples();
-        lesson7Exercise();
-
-
+       // lesson7Exercise();
+        lesson8Examples();
 
     } //end main method
+    public static void lesson8Examples(){
+        Lesson8 myLesson8 =new Lesson8();
+        myLesson8.basicIfExample(5,5);
+        myLesson8.basicIfElseExample(12, 17);
+        myLesson8.basicIfElseChainExample(42);
+        myLesson8.basicIfAndOrExample(108 );
+        myLesson8.basicswitchExample(2);
+        myLesson8.basicWhileexample();
+        myLesson8.basicDoWhileExample();
+        myLesson8.basicForLoopExample();
+        myLesson8.basicBranchExample();
+    }
     public static void lesson7Exercise() {
         Lesson7Exercise myLesson7 = new Lesson7Exercise();
         myLesson7.mathProblem();
