@@ -1,7 +1,11 @@
 package com.fundamentals;
 
-import com.fundamentals.exercise.*;
-import com.fundamentals.lessons.Lesson5.*;
+import com.fundamentals.exercise.Lesson6Exercise;
+import com.fundamentals.exercise.Lesson7Exercise;
+import com.fundamentals.exercise.Lesson8Exercise;
+import com.fundamentals.lessons.Lesson5.Lesson5;
+import com.fundamentals.lessons.Lesson5.Lesson6;
+import com.fundamentals.lessons.Lesson5.Lesson7;
 import com.fundamentals.lessons.Lesson8;
 
 
@@ -25,9 +29,16 @@ public class Main {
        // Lesson6Exercise();
         //lesson7Examples();
        // lesson7Exercise();
-        lesson8Examples();
+       // lesson8Examples();
+        Lesson8Exercise();
 
     } //end main method
+    public static void Lesson8Exercise(){
+        Lesson8Exercise myLesson8 = new Lesson8Exercise();
+        myLesson8.basicIfElseExercise();
+        myLesson8.basicSwitchExercise();
+        myLesson8.basicLoopExercise();
+    }
     public static void lesson8Examples(){
         Lesson8 myLesson8 =new Lesson8();
         myLesson8.basicIfExample(5,5);
