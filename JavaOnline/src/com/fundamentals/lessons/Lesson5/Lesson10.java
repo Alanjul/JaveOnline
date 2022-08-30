@@ -11,8 +11,8 @@ public class Lesson10 {
         int k=1;
 
 
-        for(int row =0; row<=5;row++){
-            for(int j=1; j<=n; j++){
+        for(int row =1; row<=6;row++){
+            for(int j=0; j<=n; j++){
                 if(j==0||j==1||j==k )
                 System.out.print("J ");
                 else
