@@ -3,10 +3,12 @@ package com.fundamentals;
 import com.fundamentals.exercise.Lesson6Exercise;
 import com.fundamentals.exercise.Lesson7Exercise;
 import com.fundamentals.exercise.Lesson8Exercise;
+import com.fundamentals.lessons.Lesson5.Lesson10;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
 import com.fundamentals.lessons.Lesson5.Lesson7;
 import com.fundamentals.lessons.Lesson8;
+import com.fundamentals.lessons.Lesson9;
 
 
 public class Main {
@@ -30,13 +32,24 @@ public class Main {
         //lesson7Examples();
        // lesson7Exercise();
        // lesson8Examples();
-        Lesson8Exercise();
+       //Lesson8Exercise();
+        //lesson9Examples();
+        lesson10Examples();
 
-    } //end main method
+
+    }
+    public static void lesson10Examples(){
+        Lesson10 myLesson10 = new Lesson10();
+        myLesson10.designNamePattern();
+    }
+    public static void lesson9Examples(){
+        Lesson9 myLesson9 = new Lesson9();
+        myLesson9.basicIntArray();
+    }
     public static void Lesson8Exercise(){
         Lesson8Exercise myLesson8 = new Lesson8Exercise();
-        myLesson8.basicIfElseExercise();
-        myLesson8.basicSwitchExercise();
+        myLesson8.basicIfElseExercise("a", "p");
+        myLesson8.basicSwitchExercise('A');
         myLesson8.basicLoopExercise();
     }
     public static void lesson8Examples(){

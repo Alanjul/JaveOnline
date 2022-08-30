@@ -1,38 +1,35 @@
 package com.fundamentals.exercise;
 
 public class Lesson8Exercise {
-    public static void basicIfElseExercise(){
-        String a = "good";
-        String b = "good";
+    public void basicIfElseExercise(String Good,String good){
+
+
         System.out.println("before if else statement");
-        if (a != b) {
+        if (good != Good) {
             System.out.println("they are not equal");
         } else {
-            System.out.println("they are equa;");
+            System.out.println("they are equal;");
         }
         System.out.println("end of if else statement");
     }// end of method basic if else statement
 
-    public void basicSwitchExercise(){
-        char grade = 'p';
-        switch (grade) {
+    public String basicSwitchExercise(char Grade){
+        Grade = 'p';
+          switch(Grade) {
             case 'E':
-                System.out.println("Excellent");
-                break;
-            case 'V':
-                System.out.println("Very Good");
-                break;
+                return "excellent";
+             case 'V':
+                return ("Very Good");
+
             case 'G':
-                System.out.println("Good");
-                break;
+                return ("Good");
+
             case 'A':
-                System.out.println("Average");
-                break;
+                return ("Average");
             case 'F':
-                System.out.println("Fail");
-                break;
+                return ("Fail");
             default:
-                System.out.println("Not a Valid grade'.");
+                return("Not a Valid grade'.");
         } // end of switch
     }// end of method basic switch exercise
     public  void basicLoopExercise() {

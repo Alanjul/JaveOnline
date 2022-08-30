@@ -3,12 +3,11 @@ import java.util.Scanner;
 
 public class Lesson7Exercise {
     int  value1 =10; int value2 =32; int value3 = 12; int value4 =3;
-    int value5 = 306;
 
     public void mathProblem() {
         int total = value1 +value2 *value3 /value4;
         System.out.println(total);
-        int total1 = value5 -total;
+        int total1 = (value1 + value2) *value3/value4;
         System.out.println(total1);
     } // end method mathProblem
 
