@@ -5,21 +5,15 @@ package com.fundamentals.lessons.Lesson5;
 * */
 
 public class Lesson10 {
-    // this method shows how to design name pattern.
-    public void designNamePattern(){
-        int n=6;
-        int k=1;
+    // this method shows how to design n"ame pattern.
+    public void intialProject(){
+        System.out.println("J J        J   N                  N");
+        System.out.println("J   J   J        N              N");
+        System.out.println("J     J            N           N");
+        System.out.println("J                    N        N");
+        System.out.println("J                      N    N");
+        System.out.println("J                        N");
 
-
-        for(int row =1; row<=6;row++){
-            for(int j=0; j<=n; j++){
-                if(j==0||j==1||j==k )
-                System.out.print("J ");
-                else
-                    System.out.print("N ");
-            }
-            k++;
-            System.out.println();
 
 
 
@@ -28,5 +22,4 @@ public class Lesson10 {
 
 
 
-    }// end of name pattern
 }// end of class

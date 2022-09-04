@@ -33,18 +33,21 @@ public class Main {
        // lesson7Exercise();
        // lesson8Examples();
        //Lesson8Exercise();
-        //lesson9Examples();
-        lesson10Examples();
+        lesson9Examples();
+        //lesson10Examples();
 
 
     }
     public static void lesson10Examples(){
         Lesson10 myLesson10 = new Lesson10();
-        myLesson10.designNamePattern();
+        myLesson10.intialProject();
     }
     public static void lesson9Examples(){
         Lesson9 myLesson9 = new Lesson9();
         myLesson9.basicIntArray();
+        myLesson9.basicTwoDimensionalArray();
+        myLesson9.basicThreeDimensionalArray();
+        myLesson9.basicJaggedArray();
     }
     public static void Lesson8Exercise(){
         Lesson8Exercise myLesson8 = new Lesson8Exercise();
