@@ -14,9 +14,12 @@ public class Lesson9 {
     // this method shows a multidimension array 2D
     public void basicTwoDimensionalArray(){
         int[][] myArray ={{23,45},{35,46}};
+        int[][] myj ={{43, 20}, {40, 50}};
         for (int i =0;i < myArray.length;i++ ){
-            for(int m=0; m<myArray[i].length; m++){
-                System.out.println(myArray[i][m]);
+            for(int l =0; i<myArray.length;l++)
+            for(int m=0; m<myj.length; m++){
+                System.out.println(myArray[i][l]);
+                System.out.println(myj[m]);
             }// end of inner for loop
         } // end of outer for loop
     }// end of basic two dimension array

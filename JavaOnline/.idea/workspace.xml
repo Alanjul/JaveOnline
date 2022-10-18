@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7343a9a-7845-42d9-928e-b22e86bb2c06" name="Changes" comment="" />
+    <list default="true" id="a7343a9a-7845-42d9-928e-b22e86bb2c06" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/fundamentals/exercise/Lesson11Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/Lesson10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/Lesson10Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson10/Lesson10Extended.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fundamentals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fundamentals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fundamentals/lessons/Lesson9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fundamentals/lessons/Lesson9.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +64,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fundamentals" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="com.fundamentals.Main" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fundamentals.Main" />

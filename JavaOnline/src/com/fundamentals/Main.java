@@ -3,6 +3,7 @@ package com.fundamentals;
 import com.fundamentals.exercise.Lesson6Exercise;
 import com.fundamentals.exercise.Lesson7Exercise;
 import com.fundamentals.exercise.Lesson8Exercise;
+import com.fundamentals.exercise.Lesson9Exercise;
 import com.fundamentals.lessons.Lesson5.Lesson10;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
@@ -33,10 +34,16 @@ public class Main {
        // lesson7Exercise();
        // lesson8Examples();
        //Lesson8Exercise();
-        lesson9Examples();
+       //lesson9Examples();
         //lesson10Examples();
+       lesson9Exercise();
 
 
+    }
+    public static void lesson9Exercise(){
+        Lesson9Exercise myLesson9 = new Lesson9Exercise();
+        myLesson9.singleDimensionalArray();
+        myLesson9.doubleDimensionArray ();
     }
     public static void lesson10Examples(){
         Lesson10 myLesson10 = new Lesson10();
