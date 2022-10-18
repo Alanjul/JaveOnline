@@ -1,9 +1,6 @@
 package com.fundamentals;
 
-import com.fundamentals.exercise.Lesson6Exercise;
-import com.fundamentals.exercise.Lesson7Exercise;
-import com.fundamentals.exercise.Lesson8Exercise;
-import com.fundamentals.exercise.Lesson9Exercise;
+import com.fundamentals.exercise.*;
 import com.fundamentals.lessons.Lesson5.Lesson10;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
@@ -36,8 +33,26 @@ public class Main {
        //Lesson8Exercise();
        //lesson9Examples();
         //lesson10Examples();
-       lesson9Exercise();
+       //lesson9Exercise();
+        //Lesson10Examples
+        Lesson11Examples();
+        //new Lesson11Exercise();
 
+    }
+    public static void Lesson11exercise(){
+        Lesson11Exercise  myLesson11 = new Lesson11Exercise();
+        Lesson11Exercise myOtherExerice = new Lesson11Exercise();
+
+    }
+    public static void Lesson11Examples(){
+        House myHouse = new House();
+
+        House myOtherHouse = new House();
+    }
+    public static void Lesson10Examples(){
+        Lesson10 myLesson10 = new Lesson10();
+       // Lesson10Extended myExtended = new Lesson10Extended();
+       // lesson10.myDefualtMethod();
 
     }
     public static void lesson9Exercise(){
@@ -135,7 +150,6 @@ public static void setMyInt(){
         System.out.println(myFloat);
 
 }
-
 
 
 
