@@ -35,9 +35,18 @@ public class Main {
         //lesson10Examples();
        //lesson9Exercise();
         //Lesson10Examples
-        Lesson11Examples();
+       // Lesson11Examples();
         //new Lesson11Exercise();
+        Lesson13Examples();
 
+    }
+    public static void Lesson13Examples(){
+        House mynewHouse = new House("blue");
+        Condo myCondo = new Condo("medium");
+        mynewHouse.doorOpenClose(mynewHouse.getDoorColor());
+        myCondo.doorOpenClose(myCondo.getDoorColor());
+        House myHouse = new Condo();
+        myHouse.doorOpenClose();
     }
     public static void Lesson11exercise(){
         Lesson11Exercise  myLesson11 = new Lesson11Exercise();
