@@ -54,7 +54,8 @@ public class Main {
       //  Lesson14();
        // Lesson14Exercise();
 //Lesson15Example();
-        WaterBirds();
+       // WaterBirds();
+        Lesson16();
 
     }
     public static void WaterBirds(){
@@ -62,6 +63,23 @@ public class Main {
         KingPenguin mytype = new KingPenguin(4, "little penguin");
         myBirds.swim();
         mytype.breedingProcess();
+    }
+    public static void Lesson16(){
+        Lesson16 mylesson = new Lesson16();
+        mylesson.showEnum();
+        mylesson.myFavoriteFlavor(Lesson16.IceCReamFlavors.CHOCOLATE);
+        DaysOfTheWeek d1[] = DaysOfTheWeek.values();
+        for(DaysOfTheWeek day: d1){
+            System.out.println(day + " at Index " + day.ordinal());
+        }
+        DaysOfTheWeek d3 = DaysOfTheWeek.WED;
+        d3.enumMethod();
+        Lesson16Lab[] labs = Lesson16Lab.values();
+        for(Lesson16Lab lab : labs ){
+            System.out.println("labrador color " + lab.name() + " registration code: " +
+                    lab.getAction());
+        }
+
     }
     public static void Lesson15Example(){
         int[] myInt = {1,2,3,4};
