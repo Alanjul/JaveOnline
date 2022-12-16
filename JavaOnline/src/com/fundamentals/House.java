@@ -8,12 +8,12 @@ public class House {
 
     public House() {
         this("white");
-        System.out.print("this is the default constructor");
+        System.out.println("this is the default constructor");
         System.out.println();
     }
     public House(String doorColor) {
         this("concrete","composite","doorColor", 23);
-        System.out.print("the door color is " + doorColor);
+        System.out.println("the door color is " + doorColor);
     }
 
     public House(String foundation, String roofType, String doorColor, int windowSize) {

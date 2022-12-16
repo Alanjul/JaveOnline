@@ -1,17 +1,30 @@
 package com.fundamentals;
 
 import com.fundamentals.exercise.*;
+import com.fundamentals.lessons.*;
 import com.fundamentals.lessons.Lesson5.Lesson10;
 import com.fundamentals.lessons.Lesson5.Lesson5;
 import com.fundamentals.lessons.Lesson5.Lesson6;
 import com.fundamentals.lessons.Lesson5.Lesson7;
-import com.fundamentals.lessons.Lesson8;
-import com.fundamentals.lessons.Lesson9;
 
 
 public class Main {
+    public static int num =0;
+    static{
+        System.out.println("Static block1");
+        num = 42;
+
+    }// end of static b
+
+    static{
+        System.out.println("static block 2");
+        num =52;
+    }
+
     public static void main(String[] args) {
-    // write your code here
+    // write your cod
+
+
 
         /**
          * this main class is the entry point to the  application
@@ -37,8 +50,40 @@ public class Main {
         //Lesson10Examples
        // Lesson11Examples();
         //new Lesson11Exercise();
-        Lesson13Examples();
+        //Lesson13Examples();
+      //  Lesson14();
+       // Lesson14Exercise();
+//Lesson15Example();
+        WaterBirds();
 
+    }
+    public static void WaterBirds(){
+        WaterBirds myBirds = new GreatEgret(5,"common moorhen");
+        KingPenguin mytype = new KingPenguin(4, "little penguin");
+        myBirds.swim();
+        mytype.breedingProcess();
+    }
+    public static void Lesson15Example(){
+        int[] myInt = {1,2,3,4};
+        Lesson15Example mybase = new Lesson15Sub(10,myInt, "turned off");
+        Lesson15Sub mySub = new Lesson15Sub(13, myInt, "truned on");
+        mySub.reciveCall();
+        mySub.thePicture();
+
+    }
+    public static void Lesson14Exercise(){
+
+    double voltage = Lesson14Exercise.resistanceMethod(6, 7);
+    }
+    public static void Lesson14(){
+     // can not change values of the final
+        int total = Lesson14.MY_FINAL * 35; //2145 * 35;
+        System.out.println(total);
+        // can change the value of non static;
+        Lesson14.myFirstStatic =98;
+        System.out.println(Lesson14.myFirstStatic);
+        Lesson14.myFirstStaticMethod(10);
+        System.out.println(" block number was " + num);
     }
     public static void Lesson13Examples(){
         House mynewHouse = new House("blue");
