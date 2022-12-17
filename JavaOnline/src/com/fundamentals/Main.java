@@ -55,8 +55,14 @@ public class Main {
        // Lesson14Exercise();
 //Lesson15Example();
        // WaterBirds();
-        Lesson16();
+      // Lesson16();
+        Lesson16Exercise();
 
+    }
+    public static void Lesson16Exercise() {
+        Lesson16Exercise mylesson = new Lesson16Exercise();
+        //mylesson.showMovies();
+        mylesson.myFavoriteMovieGenre(Lesson16Exercise.MovieGenre.WAR_DRAMA);
     }
     public static void WaterBirds(){
         WaterBirds myBirds = new GreatEgret(5,"common moorhen");
@@ -66,21 +72,21 @@ public class Main {
     }
     public static void Lesson16(){
         Lesson16 mylesson = new Lesson16();
-        mylesson.showEnum();
+       // mylesson.showEnum();
         mylesson.myFavoriteFlavor(Lesson16.IceCReamFlavors.CHOCOLATE);
-        DaysOfTheWeek d1[] = DaysOfTheWeek.values();
-        for(DaysOfTheWeek day: d1){
-            System.out.println(day + " at Index " + day.ordinal());
+        //DaysOfTheWeek d1[] = DaysOfTheWeek.values();
+       // for(DaysOfTheWeek day: d1){
+           // System.out.println(day + " at Index " + day.ordinal());
         }
         DaysOfTheWeek d3 = DaysOfTheWeek.WED;
-        d3.enumMethod();
+      //  d3.enumMethod();
         Lesson16Lab[] labs = Lesson16Lab.values();
-        for(Lesson16Lab lab : labs ){
-            System.out.println("labrador color " + lab.name() + " registration code: " +
-                    lab.getAction());
-        }
+        //for(Lesson16Lab lab : labs ){
+        //    System.out.println("labrador color " + lab.name() + " registration code: " +
+                    //lab.getAction());
+       // }
 
-    }
+   // }
     public static void Lesson15Example(){
         int[] myInt = {1,2,3,4};
         Lesson15Example mybase = new Lesson15Sub(10,myInt, "turned off");
