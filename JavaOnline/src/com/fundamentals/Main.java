@@ -56,8 +56,16 @@ public class Main {
 //Lesson15Example();
        // WaterBirds();
       // Lesson16();
-        Lesson16Exercise();
+       // Lesson16Exercise();
+        Lesson17();
 
+    }
+    public static void Lesson17(){
+        Lesson17 myLesson = new Lesson17();
+        //myLesson.exampleArrayList();
+       // myLesson.ExampleArryList();
+       // myLesson.ExampleHashSet();
+        myLesson.exampleHashMap();
     }
     public static void Lesson16Exercise() {
         Lesson16Exercise mylesson = new Lesson16Exercise();

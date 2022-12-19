@@ -12,7 +12,7 @@ public class House {
         System.out.println();
     }
     public House(String doorColor) {
-        this("concrete","composite","doorColor", 23);
+        this("concrete","composite",doorColor, 23);
         System.out.println("the door color is " + doorColor);
     }
 
