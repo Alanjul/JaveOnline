@@ -57,8 +57,14 @@ public class Main {
        // WaterBirds();
       // Lesson16();
        // Lesson16Exercise();
-        Lesson17();
+        //Lesson17();
+        Lesson17Exercise();
 
+    }
+    public static void Lesson17Exercise(){
+        Lesson17Exercise myLesson = new Lesson17Exercise();
+        myLesson.exerciseTevisionCollection();
+        myLesson.HouseCollection();
     }
     public static void Lesson17(){
         Lesson17 myLesson = new Lesson17();

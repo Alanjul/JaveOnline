@@ -12,6 +12,9 @@ public class Television extends Lesson11Exercise {
             this. screenSize();
         }
 
+    public Television(String screenSize) {
+    }
+
     public int   screenSize() {
         return  screenSize();
     }

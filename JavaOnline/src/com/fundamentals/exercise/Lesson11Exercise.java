@@ -1,18 +1,21 @@
 package com.fundamentals.exercise;
 
 public class Lesson11Exercise {
+    private  String ports;
+
    private double screenSize;
-   private  double price;
-   private  String ports;
+    private  double price;
+
    private String isMountable;
      private String tel;
      String televisionSet;
 
     public Lesson11Exercise( ) {
-        System.out.print("the television is turn on");
+        this("76");
+       System.out.println(" this is the default constructor");
     }
-    public Lesson11Exercise(double screenSize, String ports) {
-        this(6.0, "ports",7800.50, "mountable" );
+    public Lesson11Exercise(String ports) {
+        System.out.println("the screen size is" + ports);
     }
     public Lesson11Exercise(double screenSize, String port, double price, String isMountable){
         this.screenSize = screenSize;

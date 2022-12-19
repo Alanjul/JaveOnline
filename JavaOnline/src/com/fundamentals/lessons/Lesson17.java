@@ -51,7 +51,7 @@ public class Lesson17 {
     public void exampleHashMap(){
         Map<Integer, String> myMap = new HashMap<>();
         myMap.put(10, "Happy");
-        myMap.put(20, "Days");
+        myMap.put(5, "Days");
         myMap.put(30, "are here");
         myMap.put(40, "Happy");
         for(Map.Entry< Integer, String> map: myMap.entrySet()){
