@@ -58,8 +58,19 @@ public class Main {
       // Lesson16();
        // Lesson16Exercise();
         //Lesson17();
-        Lesson17Exercise();
+       // Lesson17Exercise();
+        //Lesson18Examples();
+        Lesson18Exercise();
 
+    }
+    public static void Lesson18Exercise(){
+        Lesson18Exercise myHomeWork = new Lesson18Exercise();
+        myHomeWork.LeapYear();
+    }
+    public static void Lesson18Examples(){
+        Lesson18 mylessons = new Lesson18();
+       // mylessons.exampleException();
+        mylessons.myArrayException();
     }
     public static void Lesson17Exercise(){
         Lesson17Exercise myLesson = new Lesson17Exercise();
